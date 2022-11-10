@@ -10,7 +10,7 @@ public class main {
         do
         {
             Scanner in = new Scanner(System.in);
-            System.out.printf("\n1. List of accessories\n2. Check compatibility/n3. Build evaluation\n4. Recommendations\n5. Set new accessories\n6. Exit\n");
+            System.out.printf("\n1. List of accessories\n2. Check compatibility\n3. Build evaluation\n4. Recommendations\n5. Set new accessories\n6. Exit\n");
             choice = in.nextInt();
             switch (choice)
             {
